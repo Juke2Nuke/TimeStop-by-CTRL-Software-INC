@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeStop by CTRL Software INC", "TimeStop by CTRL Software INC.\TimeStop by CTRL Software INC.csproj", "{F1EDF889-91C8-4FF2-81DB-DC49F5F2E8FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1EDF889-91C8-4FF2-81DB-DC49F5F2E8FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1EDF889-91C8-4FF2-81DB-DC49F5F2E8FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1EDF889-91C8-4FF2-81DB-DC49F5F2E8FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1EDF889-91C8-4FF2-81DB-DC49F5F2E8FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BCF2B57-CC33-4DF0-BC4B-D80846EE9205}
+	EndGlobalSection
+EndGlobal
