@@ -467,6 +467,7 @@ namespace TimeStop_by_CTRL_Software_INC
                                 }
                                 else if (item2.Stop && Limit - Usage[6] <= 0)
                                 {
+                                    item.Kill();
                                     MessageBox.Show("Stopping program!", "Warning!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                                 }
 
@@ -692,6 +693,16 @@ namespace TimeStop_by_CTRL_Software_INC
         private void pasteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             enableEdit();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog OpenFileDiag = new OpenFileDialog();
+            OpenFileDiag.Title = "Chose program executable";
+            if (OpenFileDiag.ShowDialog() == DialogResult.OK)
+            {
+                textBox2.Text = OpenFileDiag.SafeFileName;
+            }
         }
     }
 }
