@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace TimeStop_by_CTRL_Software_INC
 {
-    class ProgList
+    public class ProgList
     {
-        public readonly string Name;
-        public readonly string Path;
-        public readonly string Version;
+        public string Name;
+        public string Path;
+        public string Version;
         public bool Timer;
         public bool Warn;
         public bool Stop;
@@ -24,6 +24,10 @@ namespace TimeStop_by_CTRL_Software_INC
             Timer = timer;
             Warn = warn;
             Stop = stop;
+        }
+        public ProgList()
+        {
+            
         }
     }
 }

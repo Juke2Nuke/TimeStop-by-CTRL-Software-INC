@@ -61,6 +61,15 @@ namespace TimeStop_by_CTRL_Software_INC.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string internalList {
+            get {
+                return ResourceManager.GetString("internalList", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
         internal static System.Drawing.Icon logo {
